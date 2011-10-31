@@ -47,4 +47,4 @@ alias gf="git fetch"
 alias gg="git log --pretty=oneline --stat --date-order --graph"
 alias gpu="git pull"
 
-PATH=$PATH:/usr/local/sbin
+PATH=/usr/local/bin:$PATH:/usr/local/sbin
