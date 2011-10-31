@@ -36,4 +36,15 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 
+# GIT ALIASES
+alias  g="git"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gs="git status"
+alias gd="git diff"
+alias gf="git fetch"
+alias gg="git log --pretty=oneline --stat --date-order --graph"
+alias gpu="git pull"
+
 PATH=/usr/local/bin:$PATH:/usr/local/sbin
