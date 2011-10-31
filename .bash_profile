@@ -45,5 +45,6 @@ alias gs="git status"
 alias gd="git diff"
 alias gf="git fetch"
 alias gg="git log --pretty=oneline --stat --date-order --graph"
+alias gpu="git pull"
 
 PATH=$PATH:/usr/local/sbin
