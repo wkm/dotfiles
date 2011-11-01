@@ -47,4 +47,7 @@ alias gf="git fetch"
 alias gg="git log --pretty=oneline --stat --date-order --graph"
 alias gpu="git pull"
 
+# SBT SUPPORT
+export SBT_OPTS="-XX:MaxPermSize=256m"
+
 PATH=/usr/local/bin:$PATH:/usr/local/sbin
