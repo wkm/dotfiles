@@ -48,6 +48,13 @@ alias gg="git log --pretty=oneline --stat --date-order --graph"
 alias gpu="git pull"
 
 # SBT SUPPORT
-export SBT_OPTS="-XX:MaxPermSize=256m"
+export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
 PATH=/usr/local/bin:$PATH:/usr/local/sbin
+
+# BASH COMPLETIONS
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
+fi
+
+[[ -s "/Users/wiktor/.rvm/scripts/rvm" ]] && source "/Users/wiktor/.rvm/scripts/rvm"
