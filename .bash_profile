@@ -59,4 +59,4 @@ fi
 
 [[ -s "/Users/wiktor/.rvm/scripts/rvm" ]] && source "/Users/wiktor/.rvm/scripts/rvm"
 
-source "~/.bash_profile_private"
+source "/Users/wiktor/.bash_profile_private"
