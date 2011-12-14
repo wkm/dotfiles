@@ -58,3 +58,5 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 [[ -s "/Users/wiktor/.rvm/scripts/rvm" ]] && source "/Users/wiktor/.rvm/scripts/rvm"
+
+source "~/.bash_profile_private"
