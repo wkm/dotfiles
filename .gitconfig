@@ -15,3 +15,5 @@
 
 [color]
 	ui = true
+[mergetool]
+	keepBackup = true
