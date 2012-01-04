@@ -47,6 +47,12 @@ alias gf="git fetch"
 alias gg="git log --pretty=oneline --stat --date-order --graph"
 alias gpu="git pull"
 
+
+# Sublime tool
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
+export EDITOR='subl -w'
+
 # SBT SUPPORT
 export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
