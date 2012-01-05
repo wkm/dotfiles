@@ -1,0 +1,12 @@
+root = /Users/wiktor/Sites
+root = ssh://10.60.29.57//var/www/apps
+
+prefer = /Users/wiktor/Sites
+
+path = *
+
+ignore = Path */.git/*
+
+log = true
+auto = true
+contactquietly = true
