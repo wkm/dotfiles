@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="arrow"
+ZSH_THEME="bira"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -34,3 +34,14 @@ plugins=(brew git github osx ssh-agent)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+
+export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
+
+source $HOME/.bash_profile_private
+
+# Sublime tool
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
+export EDITOR='subl -w'
+export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
