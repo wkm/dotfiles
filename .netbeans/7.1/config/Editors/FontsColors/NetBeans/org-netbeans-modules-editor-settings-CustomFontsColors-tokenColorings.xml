@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor default="identifier" foreColor="ff7b8c4d" name="field"/>
+    <fontcolor bgColor="white" foreColor="black" name="default">
+        <font name="Inconsolata" size="14" style="plain"/>
+    </fontcolor>
+    <fontcolor bgColor="fffbe9ad" foreColor="ffbc670f" name="char"/>
+    <fontcolor bgColor="fffff7de" foreColor="ffbc670f" name="string"/>
+    <fontcolor foreColor="ff7653c1" name="keyword"/>
+    <fontcolor default="identifier" foreColor="ff4e279a" name="method"/>
+    <fontcolor bgColor="fff3f2ff" foreColor="ff7653c1" name="number"/>
+    <fontcolor foreColor="ff7f7f7f" name="comment"/>
+    <fontcolor foreColor="ff626fc9" name="operator"/>
+</fontscolors>
