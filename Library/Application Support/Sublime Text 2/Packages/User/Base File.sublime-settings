@@ -1,5 +1,9 @@
 {
-	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
+	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
 	"font_face": "Inconsolata",
+<<<<<<< HEAD
 	"font_size": 19.0
+=======
+	"font_size": 13.8
+>>>>>>> 4a3f5a18f6459a6fd27043dcec411d8aa9524aa7
 }
