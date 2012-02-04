@@ -4,7 +4,10 @@
 	
 [core]
 	excludesfile = /Users/wiktor/.gitignore_global
-	
+
+[alias]
+	ldiff = !"git diff origin/master..HEAD"
+
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
