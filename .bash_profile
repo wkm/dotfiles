@@ -63,6 +63,6 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
   . `brew --prefix`/etc/bash_completion
 fi
 
-[[ -s "/Users/wiktor/.rvm/scripts/rvm" ]] && source "/Users/wiktor/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-source "/Users/wiktor/.bash_profile_private"
+source "$HOME/.bash_profile_private"
