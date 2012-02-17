@@ -53,3 +53,6 @@ alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
 export EDITOR='mvim -f'
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
+
+
+alias dev="ssh wiktordev"
