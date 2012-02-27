@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/Users/wiktor/Code/ira/project'
 let g:netrw_dirhist_2='/Users/wiktor/Code/ira/project/build'
 let g:netrw_dirhist_3='/Users/wiktor/Sites/operations/config'
+let g:netrw_dirhist_4='/Users/wiktor/Code/xail/.git'

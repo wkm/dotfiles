@@ -51,7 +51,7 @@ source $HOME/.bash_profile_private
 # Sublime tool
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
-export EDITOR='mvim -f'
+export EDITOR='vim'
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
 
 
