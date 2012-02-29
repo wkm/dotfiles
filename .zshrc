@@ -7,8 +7,8 @@ REPORTTIME=10
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="bira"
-#ZSH_THEME="blinks"
+#ZSH_THEME="bira"
+ZSH_THEME="blinks"
 #ZSH_THEME="clean"
 #ZSH_THEME="fino"
 #ZSH_THEME="jnrowe"
@@ -37,7 +37,7 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew git github osx ssh-agent autojump)
+plugins=(git osx ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -56,3 +56,4 @@ export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
 
 
 alias dev="ssh wiktordev"
+alias v="vim"
