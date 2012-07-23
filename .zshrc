@@ -37,7 +37,8 @@ COMPLETION_WAITING_DOTS="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ssh-agent)
+plugins=(git osx ssh-agent mercurial rails sublime zsh-syntax-highlighting)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -48,12 +49,11 @@ export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
 
 source $HOME/.bash_profile_private
 
-# Sublime tool
-alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
-
 export EDITOR='vim'
 export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
 
+export GOPATH="$HOME/Code/g0/"
+export PATH=$PATH:$GOPATH/bin
 
 alias dev="ssh wiktordev"
 alias v="vim"
