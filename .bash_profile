@@ -27,15 +27,6 @@ fi
 
 export CLICOLOR=1
 
-##
-# Your previous /Users/wiktor/.bash_profile file was backed up as /Users/wiktor/.bash_profile.macports-saved_2010-12-24_at_18:27:57
-##
-
-# MacPorts Installer addition on 2010-12-24_at_18:27:57: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
-
-
 # GIT ALIASES
 alias  g="git"
 alias ga="git add"
@@ -51,7 +42,11 @@ alias gpu="git pull"
 # Sublime tool
 alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
-export EDITOR='subl -w'
+export EDITOR='vim'
+export PATH="/usr/local/bin:$PATH:/usr/local/sbin"
+
+export GOPATH="$HOME/Code/g0/"
+export PATH="$PATH:$GOPATH/bin"
 
 # SBT SUPPORT
 export SBT_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
